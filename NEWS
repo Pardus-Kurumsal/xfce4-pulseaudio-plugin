@@ -1,0 +1,113 @@
+0.3.2
+=====
+
+- General:
+  - Replace deprecated notify_notification_set_hint calls
+- Bug Fixes:
+  - Xfce 13889: Fix build with clang (non-void function should return a value
+    [-Wreturn-type])
+  - Xfce 13894: Fix panel icon size with high DPI
+- Translation Updates: Chinese (China), Danish, German, Portuguese (Brazil),
+  Swedish
+
+0.3.1
+=====
+
+- New Feature: Device Management
+  - Switch active audio input and output devices.
+  - Control volume of the currently selected device.
+  - If there are no input or output devices, the menu items are hidden.
+  - This feature does not change the device associated with active streams.
+- General:
+  - Fixed build warnings with gcc-7
+  - Improved code quality with the custom widgets
+  - Improved memory management
+  - Simplified audio volume controls
+- Translation Updates: Bulgarian, Catalan, Czech, Danish, French, Hebrew,
+  Croatian, Korean, Lithuanian, Dutch, Polish, Portuguese, Russian, Slovak,
+  Slovenian, Thai, Turkish, Ukrainian, Chinese (China), Chinese (Taiwan)
+
+0.3.0
+=====
+
+- New Features:
+  - Add audio input volume to plugin menu
+  - Add (optional) MPRIS2 media player controls
+  - Add support for the XF86AudioMicMute key
+  - Update help links to the new docs.xfce.org startpage
+  - Set the transient hint for volume and mic notifications
+- Build requirements updated to Xfce 4.14 minimum:
+  - GTK+ 3.20
+  - GLib 2.42
+- Bug Fixes:
+  - Xfce 13585: Compilation errors with xfce4-panel 4.13
+  - CID 168081: Result is not floating-point
+  - CID 168082: Dereference before null
+  - Fixed large size button
+- General:
+  - Updated credits and copyright notice
+- Translation Updates: Bulgarian, Catalan, Chinese (China), Chinese (Taiwan),
+  Croatian, Czech, Danish, Dutch, English (Australia), French, Galician,
+  German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Kazakh,
+  Korean, Lithuanian, Malay, Norwegian Bokmal, Occitan (post 1500),
+  Polish, Portuguese, Portuguese (Brazil), Russian, Serbian, Slovak, Slovenian,
+  Spanish, Swedish, Thai, Turkish, Ukrainian
+
+0.2.5
+=====
+
+- Adapt to a panel API change (4.13+)
+- Update volume on server events such as change of default output device
+- Do not show notifications at start up (bug #12313)
+- Do not issue volume notifications when plugin menu is shown.
+- Fix several issues with translations
+- Translation Updates: Bulgarian, Catalan, Croatian, Czech, Danish, Dutch,
+  English (Australia), French, Galician, German, Greek, Hebrew, Hungarian,
+  Icelandic, Italian, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmal,
+  Occitan, Polish, Portuguese, Portuguese, Russian, Serbian, Slovak, Spanish,
+  Swedish, Thai, Turkish, Ukrainian
+
+0.2.4
+=====
+
+- Added a configuration option "show-notifications".
+- Reconnect to the PA server when the connection is lost.
+- Fixes to the notification update mechanism.
+
+0.2.3
+=====
+
+- Corrected copyright and author list
+- Added OSD notifications
+- >100% audio volume is now allowed (only when using a volume slider)
+
+0.2.2
+=====
+
+- Fixed crashes & lockups with Gtk+ 3.14
+- Icon fixes
+- Added plugin icon
+- Added required icons to tarball
+
+0.2.1
+=====
+
+Bugfix release for issues with Gtk+-3.14:
+- Incorrect mouse coordinate translation in the volume slider.
+- Crash on menu popup/popdown.
+
+0.2.0
+=====
+
+- Autoconf and automake modernization
+- Make the default mixer command a compile-time option
+- Add menu item for muting the volume
+- Allow execution of the mixer from context menu
+- Replace the button with a toggle button that displays a popup with a scale
+  for adjusting the volume when activated
+
+0.1.0
+=====
+
+- Initial version
+
