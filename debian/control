@@ -21,7 +21,7 @@ Build-Depends: autoconf,
                libxfce4ui-2-dev,
                libxfce4util-dev,
                libxfconf-0-dev
-Standards-Version: 4.1.1
+Standards-Version: 3.9.8
 Homepage: https://docs.xfce.org/apps/pulseaudio-plugin/start
 Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-xfce/goodies/trunk/xfce4-pulseaudio-plugin/
 Vcs-Svn: svn://anonscm.debian.org/pkg-xfce/goodies/trunk/xfce4-pulseaudio-plugin/
