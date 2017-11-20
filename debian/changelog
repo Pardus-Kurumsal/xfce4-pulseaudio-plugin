@@ -1,3 +1,10 @@
+xfce4-pulseaudio-plugin (0.3.2-2pardus1) unstable; urgency=medium
+
+  * Pardus CI implementation
+  * Update control file
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 20 Nov 2017 14:46:51 +0300
+
 xfce4-pulseaudio-plugin (0.3.2-1) experimental; urgency=medium
 
   [ Unit 193 ]
